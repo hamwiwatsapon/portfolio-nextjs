@@ -4,9 +4,11 @@ import LinkBox from './LinkBox/LinkBox'; // Adjust the import path based on your
 const Navbar = () => {
   return (
     <nav className='justify-end flex w-full'>
-      <LinkBox title="Works" linkText="#Works" />
-      <LinkBox title="Blog" linkText="#Blog" />
-      <LinkBox title="Contact" linkText="#Contact" />
+      <div className='m-10'>
+        <LinkBox title="Works" linkText="#Works" />
+        <LinkBox title="Blog" linkText="#Blog" />
+        <LinkBox title="Contact" linkText="#Contact" />
+      </div>
     </nav>
   );
 };

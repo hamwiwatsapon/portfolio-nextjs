@@ -1,4 +1,4 @@
-import CardMain from "@/app/ui/CardMain/CardMain";
+import CardMain from "@/app/ui/CardMain/Home";
 
 export default function Home() {
   return (
