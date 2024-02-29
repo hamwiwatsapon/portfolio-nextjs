@@ -1,8 +1,9 @@
-import Navbar from "@/app/ui/CardMain/Navbar/Navbar"
-import Profile from "./Profile/Profile"
-import CertPost from "./CertPost/CertPost"
+import Navbar from "@/app/ui/Home/Navbar/Navbar"
+import Profile from "@/app/ui/Home/Profile/Profile"
+import CertPost from "@/app/ui/Home/CertPost/CertPost"
+import WorkPost from "@/app/ui/Home/WorkPost/WorkPost"
 
-const CardMain = () => {
+const Home = () => {
   const des = "I have an experience 1 year on position backend developer. Thanks for interesting."
   const prof = "/profile.jpg"
   const greed = "Hi, I am Wiwatsapon, I am Developer"
@@ -11,8 +12,9 @@ const CardMain = () => {
       <Navbar />
       <Profile description={des} image={prof} greeting={greed}/>
       <CertPost  />
+      <WorkPost  />
     </div>
   )
 }
 
-export default CardMain
+export default Home

@@ -1,4 +1,4 @@
-import Post from "@/app/ui/CardMain/CertPost/Post/Post"
+import Post from "@/app/ui/CardPost/CardPost"
 
 
 const CertPost = () => {

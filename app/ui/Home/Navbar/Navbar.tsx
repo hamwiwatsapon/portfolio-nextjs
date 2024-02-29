@@ -1,5 +1,5 @@
 import React from 'react';
-import LinkBox from './LinkBox/LinkBox'; // Adjust the import path based on your project structure
+import LinkBox from '@/app/ui/LinkBox/LinkBox'; // Adjust the import path based on your project structure
 
 const Navbar = () => {
   return (
