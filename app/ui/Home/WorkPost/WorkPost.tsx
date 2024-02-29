@@ -11,9 +11,14 @@ const WorkPost = (props: Props) => {
 
   return (
     <div className='w-full justify-center content-center items-center flex flex-col p-10'>
-      <CardWork title={title} year={year} subject={subject} image={image} detail={detail} />
-      <CardWork title={title} year={year} subject={subject} image={image} detail={detail} />
-      <CardWork title={title} year={year} subject={subject} image={image} detail={detail} />
+      <div className='w-[858px] text-start'>
+        <h1 className="text-[22px] text-slate-800">Works</h1>
+      </div>
+      <div>
+        <CardWork title={title} year={year} subject={subject} image={image} detail={detail} />
+        <CardWork title={title} year={year} subject={subject} image={image} detail={detail} />
+        <CardWork title={title} year={year} subject={subject} image={image} detail={detail} />
+      </div>
     </div>
   )
 }
